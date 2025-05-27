@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
 
           <div className=" p-6 rounded-lg mb-8">
             <p className="text-gray-700 leading-relaxed">
-              Welcome to HushTap ("we," "us," or "our"). Your privacy is important to us. This Privacy Policy explains
+              Welcome to HushTap (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). Your privacy is important to us. This Privacy Policy explains
               how we collect, use, store, and protect your personal data when you use the HushTap mobile app, Hush
               hardware devices, and our website at [yourdomain.com]. By using our services, you agree to the terms of
               this Privacy Policy.
@@ -119,7 +119,7 @@ export default function PrivacyPolicy() {
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
               <li>
-                Delete your account and all associated data at any time from within the app or by emailing{" "}
+                Delete your account and all associated data at any time from within the app or by emailing{' '}
                 <a href="mailto:support@hushtap.com" className="text-blue-600 hover:text-blue-800">
                   support@hushtap.com
                 </a>
@@ -130,7 +130,7 @@ export default function PrivacyPolicy() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Children's Privacy</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Children&apos;s Privacy</h2>
             <p className="text-gray-700">
               HushTap is not intended for children under the age of 13. We do not knowingly collect personal information
               from anyone under 13. If we discover such data, it will be deleted immediately.
@@ -147,11 +147,10 @@ export default function PrivacyPolicy() {
               <li>Withdraw consent to data processing</li>
             </ul>
             <p className="text-gray-700 mt-4">
-              To exercise these rights, contact us at{" "}
+              To exercise these rights, contact us at
               <a href="mailto:support@hushtap.com" className="text-blue-600 hover:text-blue-800">
                 support@hushtap.com
-              </a>
-              .
+              </a>.
             </p>
           </section>
 

@@ -4,7 +4,8 @@ import { motion, MotionValue, useScroll, useTransform } from "motion/react";
 import { ComponentPropsWithoutRef, FC, ReactNode, useRef } from "react";
 
 import { cn } from "@/lib/utils";
-import { b } from "motion/react-client";
+// Commented out unused variable to resolve ESLint issue
+// import { b } from "motion/react-client";
 
 export interface TextRevealProps extends ComponentPropsWithoutRef<"div"> {
   children: string | ReactNode;
