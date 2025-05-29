@@ -8,7 +8,7 @@ const Section_3 = () => {
         <div className=" h-full w-full flex flex-col items-center justify-center  ">
           <div className=" min-h-1/2 h-full w-full relative">
             <Image
-              src="/iphone 6.png"
+              src="/iphone_6.png"
               alt="Descriptive alt text"
               width={400}
               height={300}
