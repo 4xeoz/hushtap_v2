@@ -7,7 +7,7 @@ import Section_5 from '@/components/sections/Home/section_5';
 
 const HomePage = () => {
   return (
-   <section className="min-h-screen bg-black text-white">
+   <section className="min-h-screen bg-black text-white flex flex-col gap-44">
     <Section_1/>
     <Section_2/>
     <Section_3/>
