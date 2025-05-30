@@ -9,17 +9,17 @@ export function FooterSection() {
             <span className="text-lg font-bold text-black">support@hushtap.com</span>
           </div>
           <div className="flex space-x-4">
-            <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="text-black">
+            <a href="https://discord.gg/pdxtmvBp" target="_blank" rel="noopener noreferrer" className="text-black">
               <FaDiscord size={24} />
             </a>
-            <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="text-black">
+            <a href="https://x.com/ImbramWojd99349" target="_blank" rel="noopener noreferrer" className="text-black">
               <FaTwitter size={24} />
             </a>
           </div>
         </div>
       </div>
       <div className="text-center my-2 ">
-        <span className="text-black ">© 2025 Hushtap</span>
+        
       </div>
     </div>
   );

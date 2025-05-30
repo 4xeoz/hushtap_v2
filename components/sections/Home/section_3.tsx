@@ -15,7 +15,7 @@ const Section_3 = () => {
               className="absolute left-1/2 top-1/2 -translate-x-2/3 -translate-y-2/3"
             />
           </div>
-          <div className=" h-full w-full flex justify-center flex-col gap-10 ">
+          <div className=" h-full w-full flex justify-center flex-col gap-5 ">
             <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-black mb-4 ">
               brings your
             </h2>
@@ -25,7 +25,6 @@ const Section_3 = () => {
             <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-black mb-4 ">
               to a halt.
             </h2>
-
           </div>
         </div>
         <div className=" h-full w-full flex flex-col items-center justify-center">
@@ -34,9 +33,19 @@ const Section_3 = () => {
               Our NFC Powered
             </h2>
 
-            <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-blue-600 mb-4">
-              Hush
-            </h2>
+            <div className="flex items-center justify-center gap-4 mb-4">
+              <Image
+                src="/Logo_blue.svg"
+                alt="Descriptive alt text"
+                width={70}
+                height={70}
+                className="object-contain"
+              />
+
+              <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-blue-600">
+                Hush
+              </h2>
+            </div>
           </div>
           <div className="h-full w-full relative">
             <Image

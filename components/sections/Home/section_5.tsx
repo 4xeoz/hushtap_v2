@@ -17,12 +17,19 @@ const Section_5 = () => {
       <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 max-w-6xl mx-auto">
         {/* Logo */}
         <div className="mb-16 md:mb-20">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 md:w-10 md:h-10 bg-black rounded-sm flex items-center justify-center">
-              <div className="w-6 h-6 md:w-7 md:h-7 border-2 border-white rounded-sm" />
+            <div className="flex items-center justify-center gap-4 mb-4">
+              <Image
+                src="/Logo_black.png"
+                alt="Descriptive alt text"
+                width={70}
+                height={70}
+                className="object-contain"
+              />
+
+              <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-black ">
+                HushQR
+              </h2>
             </div>
-            <span className="text-4xl md:text-7xl font-semibold text-black">HushQR</span>
-          </div>
         </div>
 
         {/* Main Headline */}
